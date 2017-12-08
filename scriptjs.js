@@ -8,6 +8,8 @@
   var possibleTable = document.getElementById("possibleTable");
   var allPossibleNetwork = document.getElementById("allPossibleNetwork");
 
+
+
   function replaceStringAt(string, ch, index) {
     return string.substring(0, index) + ch + string.substring(index + 1)
   }
